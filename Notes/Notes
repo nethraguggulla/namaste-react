@@ -1,0 +1,25 @@
+Package.json - It is a configuration for npm. It keeps a tracking what version it is installed.
+Package.lock.json : Keeps a track of the exact version
+NPM - It is a package managaer and it will manage all the packages and install in our system. Sometimes  It doesn't have full form
+Dependency :  Dev (Development phase, when we are developing it required dev dependency) and normal (Used in production also)
+ "devDependencies": {
+    "parcel": "^2.13.2" - '^' If we use '^' when we get minor update it will install that 
+                          '~' If we use '~' when we get major update it will install that
+  }
+
+  npm - It install package
+  npx - It executes the package
+
+HMR - Hot Module Replacement
+      It means that parcel will keep a track of all the files which you are updating.
+      Parcel is a File Watching Algorithm (written in C++) - Automatically it is running when we save
+
+Parcel-cache:
+            Parcel caches code all the time.
+            When we run the application, a build is created which takes some time in ms.
+            If we make any code changes and save the application, another build will be triggered which might take even less time than the previous build.
+            This reduction of time is due to parcel cache.
+            Parcel immediately loads the code from the cache every time there is a subsequent build.
+            On the very first build parcel creates a folder .parcelcache where it stores the caches in binary codeformat.
+            Parcel gives faster build, faster developer experience because of caching.
+
