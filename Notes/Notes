@@ -23,3 +23,11 @@ Parcel-cache:
             On the very first build parcel creates a folder .parcelcache where it stores the caches in binary codeformat.
             Parcel gives faster build, faster developer experience because of caching.
 
+
+React Component :
+    Its a normal javascript function which returns some piece of JSX
+Component Composition : Composing component in one other component (Put 1 component in other component)
+
+Config Driven UI : Our webiste is driven by data/config
+Optional Chaining Operator : While accessing an object, if it null it won't throw an error instead of throwing an error it will display undefined.
+
