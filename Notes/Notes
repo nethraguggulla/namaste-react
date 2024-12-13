@@ -31,3 +31,11 @@ Component Composition : Composing component in one other component (Put 1 compon
 Config Driven UI : Our webiste is driven by data/config
 Optional Chaining Operator : While accessing an object, if it null it won't throw an error instead of throwing an error it will display undefined.
 
+2 types of Export and Import
+    - Default Export/Import
+        Ex: export default Component
+            import Component from "path"
+    - Named Export/Import
+        Ex: export const var = value;
+            import { var } from "path"
+
