@@ -39,3 +39,8 @@ Optional Chaining Operator : While accessing an object, if it null it won't thro
         Ex: export const var = value;
             import { var } from "path"
 
+React Hooks ( Normal Javascript Utility Functions )
+- useState() - Superpowerful state variables in react
+    Definition : Whenever a state variable updates react re-renders the component.
+
+

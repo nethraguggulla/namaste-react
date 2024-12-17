@@ -18,9 +18,13 @@
     font-size: 20px;
     margin-top: 43px;
 }
-.search {
+.filter-btn {
     margin: 10px;
     padding: 10px;
+    cursor: pointer;
+}
+.search-btn {
+    margin: 10px;
 }
 .res-card {
     margin: 12px;
