@@ -40,8 +40,20 @@ Optional Chaining Operator : While accessing an object, if it null it won't thro
             import { var } from "path"
 
 React Hooks ( Normal Javascript Utility Functions )
+NOTE: Never use useState() and useEffect() functions, outside of component
+      Don't create state variables inside if(),for(),function or any conditions
+
 - useState() - Superpowerful state variables in react
     Definition : Whenever a state variable updates react re-renders the component.
     Whenever state variable updates, react triggers a reconciliation cycle(re-renders the component)
+
+- useEffect() - It will call everytime component renders
+    syntax : useEffect(()=>{
+        console.log("useEffect called);
+    }, [])
+
+    1) If no dependency => useEffect will call every component render
+    2) If dependency is empty = [] => useEffect will call only intial component render(just once)
+    3) If dependency is [btnName] => useEffect will call everytime btnName is updated
 
 
