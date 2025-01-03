@@ -42,5 +42,6 @@ Optional Chaining Operator : While accessing an object, if it null it won't thro
 React Hooks ( Normal Javascript Utility Functions )
 - useState() - Superpowerful state variables in react
     Definition : Whenever a state variable updates react re-renders the component.
+    Whenever state variable updates, react triggers a reconciliation cycle(re-renders the component)
 
 
