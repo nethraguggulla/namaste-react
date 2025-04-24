@@ -31,10 +31,13 @@
     align: center;
     padding: 5px;
     width: 270px;
+    color: black;
+    box-shadow: 5px 5px #ecebf2;
 }
 .res-card:hover {
     cursor: pointer;
-    box-shadow: 5px 5px #eaeaea;
+    box-shadow: 1px 1px #eaeaea;
+    color: rgb(74, 74, 95);
 }
 .res-logo {
     width: 270px;
@@ -45,6 +48,7 @@
     flex-wrap: wrap;
     margin: 1% 10% 1% 14%;
 }
+
 .shimmer-container {
     display: flex;
     flex-wrap: wrap;
